@@ -7,6 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 public class TestSelenium04_Hierarchy {
     //WebDriver hierarchy
@@ -20,7 +21,8 @@ public class TestSelenium04_Hierarchy {
     //GeckoDriver(C) - Firefox has the gecko engine
     //SafariDriver(C) - they have appleKit engine
 
-    public static void main(String[] args) {
+    @Test
+    public void Hierarchy() {
 //        SearchContext driver1 = new ChromeDriver(); //Possible
 //        SearchContext driver2 = new EdgeDriver(); //Possible
 //        SearchContext driver3 = new FirefoxDriver(); //Possible
