@@ -1,9 +1,9 @@
-package com.AutomateWithAnuj;
+package com.AutomateWithAnuj._01_Architecture;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class TestSelenium01 {
+public class TestSelenium01_Architecture {
     @Test
     public void test_openVWOLoginPage(){
         EdgeDriver edgeDriver = new EdgeDriver();
