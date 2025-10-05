@@ -3,11 +3,10 @@ package com.AutomateWithAnuj._06_MiniProject;
 import com.AutomateWithAnuj._07_CommonToAllCode.TestSelenium09_CommonToAll;
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestSelenium08_MiniProject_Selenium extends TestSelenium09_CommonToAll {
+public class TestSelenium08_MiniProject_HomePageCheck extends TestSelenium09_CommonToAll {
     @Description("Open the URL")
     @Test
     public void test_Selenium01() throws Exception {
