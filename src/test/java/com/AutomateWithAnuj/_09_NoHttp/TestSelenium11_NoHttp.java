@@ -7,7 +7,7 @@ public class TestSelenium11_NoHttp {
     @Test
     public void testMethod() throws InterruptedException {
         EdgeDriver driver = new EdgeDriver();
-        driver.get("bing.com"); // will fail HTTPs is important
+        //driver.get("bing.com"); // will fail HTTPs is important
         Thread.sleep(5000);
         driver.get("https://bing.com");
         driver.quit();

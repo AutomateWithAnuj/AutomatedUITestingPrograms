@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
-public class TestSelenium09_MiniProject_ApplyAddRemovalExtension {
+public class TestSelenium14_MiniProject_ApplyAddRemovalExtension {
     //1. You need to open the YouTube.com
     //2. You need an extension which blocks the ads
     //3. URL for extension - https://chromewebstore.google.com/detail/adblock-%E2%80%94-block-ads-acros/gighmmpiobklfepjocnamgkkbiglidom?form=MG0AV3&pli=1
