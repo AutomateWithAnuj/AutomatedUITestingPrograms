@@ -12,7 +12,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestSelenium15_Project_Locators_Selenium {
+public class TestSelenium15_ProjLocators_ID_Classname_Name {
     @Description("TC#1 - Verify that with invalid login, error message is displayed!")
     @Owner("Anuj Rajput")
     @Severity(SeverityLevel.BLOCKER)
