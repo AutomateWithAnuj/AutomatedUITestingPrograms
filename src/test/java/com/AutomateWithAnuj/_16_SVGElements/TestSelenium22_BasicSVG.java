@@ -22,6 +22,12 @@ public class TestSelenium22_BasicSVG {
         //driver.findElement(By.xpath("//*[name()='svg']")).click(); //use this if we have 1 svg element in the HTML
         List<WebElement> elements = driver.findElements(By.xpath("//*[name()='svg']"));
         elements.get(0).click();
+
+        //printing all the model titles
+        List<WebElement> allTitles = driver.findElements(By.xpath("//div[contains(@data-id,'CPU')]/div/a[2]"));
+        for (WebElement Title : allTitles) {
+            System.out.println(Title.getText());
+        }
         driver.quit();
     }
 }
