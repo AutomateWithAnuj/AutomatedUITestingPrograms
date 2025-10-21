@@ -4,12 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.devtools.idealized.Javascript;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class TestSelenium30_Shadow_DOM_P1 {
+public class TestSelenium30_Shadow_DOM {
     @Test
     public void test_shadow_dom() throws InterruptedException {
         WebDriver driver = new EdgeDriver();
