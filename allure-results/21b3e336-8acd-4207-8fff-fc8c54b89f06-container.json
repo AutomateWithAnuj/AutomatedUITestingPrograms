@@ -1,0 +1,1 @@
+{"uuid":"21b3e336-8acd-4207-8fff-fc8c54b89f06","name":"AutomatedUITestingPrograms","children":["e17a16eb-bed8-42b0-9b0c-4a79875b9571"],"befores":[{"name":"openBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1761288658563,"stop":1761288662604}],"afters":[],"start":1761288658545,"stop":1761288678713}

@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestSelenium38_Selenium_NoSuchElementException {
+public class TestSelenium38_NoSuchElementException {
     public static WebDriver driver;
     @BeforeTest
     public static void openBrowser() {
