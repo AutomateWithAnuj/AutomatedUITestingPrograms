@@ -11,6 +11,5 @@ public class TestSelenium49_JSEx_NavigateToURL_Scroll extends TestSelenium09_Com
         js.executeScript("window.location = 'https://selectorshub.com/xpath-practice-page/'");
 
         js.executeScript("window.scrollBy(0,500)");
-
     }
 }
